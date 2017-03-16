@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C70B238F1D8266780047E38E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70B238E1D8266780047E38E /* AppDelegate.swift */; };
+		C70B23911D8266780047E38E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70B23901D8266780047E38E /* ViewController.swift */; };
+		C70B23941D8266780047E38E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70B23921D8266780047E38E /* Main.storyboard */; };
+		C70B23961D8266780047E38E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70B23951D8266780047E38E /* Assets.xcassets */; };
+		C70B23991D8266780047E38E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70B23971D8266780047E38E /* LaunchScreen.storyboard */; };
+		C70B23A41D8266780047E38E /* metronome8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70B23A31D8266780047E38E /* metronome8Tests.swift */; };
+		C70B23AF1D8266780047E38E /* metronome8UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70B23AE1D8266780047E38E /* metronome8UITests.swift */; };
+		C70B23BE1D8266B60047E38E /* Pause_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C70B23BC1D8266B60047E38E /* Pause_Icon.png */; };
+		C70B23BF1D8266B60047E38E /* Play_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C70B23BD1D8266B60047E38E /* Play_Icon.png */; };
+		C70B23C11D827EE60047E38E /* Metronome.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C70B23C01D827EE60047E38E /* Metronome.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C70B23A01D8266780047E38E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C70B23831D8266780047E38E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C70B238A1D8266780047E38E;
+			remoteInfo = metronome8;
+		};
+		C70B23AB1D8266780047E38E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C70B23831D8266780047E38E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C70B238A1D8266780047E38E;
+			remoteInfo = metronome8;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C70B238B1D8266780047E38E /* metronome8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = metronome8.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70B238E1D8266780047E38E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C70B23901D8266780047E38E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C70B23931D8266780047E38E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C70B23951D8266780047E38E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C70B23981D8266780047E38E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C70B239A1D8266780047E38E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C70B239F1D8266780047E38E /* metronome8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = metronome8Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70B23A31D8266780047E38E /* metronome8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metronome8Tests.swift; sourceTree = "<group>"; };
+		C70B23A51D8266780047E38E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C70B23AA1D8266780047E38E /* metronome8UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = metronome8UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70B23AE1D8266780047E38E /* metronome8UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metronome8UITests.swift; sourceTree = "<group>"; };
+		C70B23B01D8266780047E38E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C70B23BC1D8266B60047E38E /* Pause_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pause_Icon.png; sourceTree = "<group>"; };
+		C70B23BD1D8266B60047E38E /* Play_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Play_Icon.png; sourceTree = "<group>"; };
+		C70B23C01D827EE60047E38E /* Metronome.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Metronome.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C70B23881D8266780047E38E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70B239C1D8266780047E38E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70B23A71D8266780047E38E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C70B23821D8266780047E38E = {
+			isa = PBXGroup;
+			children = (
+				C70B238D1D8266780047E38E /* metronome8 */,
+				C70B23A21D8266780047E38E /* metronome8Tests */,
+				C70B23AD1D8266780047E38E /* metronome8UITests */,
+				C70B238C1D8266780047E38E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C70B238C1D8266780047E38E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C70B238B1D8266780047E38E /* metronome8.app */,
+				C70B239F1D8266780047E38E /* metronome8Tests.xctest */,
+				C70B23AA1D8266780047E38E /* metronome8UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C70B238D1D8266780047E38E /* metronome8 */ = {
+			isa = PBXGroup;
+			children = (
+				C70B238E1D8266780047E38E /* AppDelegate.swift */,
+				C70B23901D8266780047E38E /* ViewController.swift */,
+				C70B23921D8266780047E38E /* Main.storyboard */,
+				C70B23951D8266780047E38E /* Assets.xcassets */,
+				C70B23BC1D8266B60047E38E /* Pause_Icon.png */,
+				C70B23BD1D8266B60047E38E /* Play_Icon.png */,
+				C70B23C01D827EE60047E38E /* Metronome.mp3 */,
+				C70B23971D8266780047E38E /* LaunchScreen.storyboard */,
+				C70B239A1D8266780047E38E /* Info.plist */,
+			);
+			path = metronome8;
+			sourceTree = "<group>";
+		};
+		C70B23A21D8266780047E38E /* metronome8Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C70B23A31D8266780047E38E /* metronome8Tests.swift */,
+				C70B23A51D8266780047E38E /* Info.plist */,
+			);
+			path = metronome8Tests;
+			sourceTree = "<group>";
+		};
+		C70B23AD1D8266780047E38E /* metronome8UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C70B23AE1D8266780047E38E /* metronome8UITests.swift */,
+				C70B23B01D8266780047E38E /* Info.plist */,
+			);
+			path = metronome8UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C70B238A1D8266780047E38E /* metronome8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C70B23B31D8266780047E38E /* Build configuration list for PBXNativeTarget "metronome8" */;
+			buildPhases = (
+				C70B23871D8266780047E38E /* Sources */,
+				C70B23881D8266780047E38E /* Frameworks */,
+				C70B23891D8266780047E38E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = metronome8;
+			productName = metronome8;
+			productReference = C70B238B1D8266780047E38E /* metronome8.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C70B239E1D8266780047E38E /* metronome8Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C70B23B61D8266780047E38E /* Build configuration list for PBXNativeTarget "metronome8Tests" */;
+			buildPhases = (
+				C70B239B1D8266780047E38E /* Sources */,
+				C70B239C1D8266780047E38E /* Frameworks */,
+				C70B239D1D8266780047E38E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C70B23A11D8266780047E38E /* PBXTargetDependency */,
+			);
+			name = metronome8Tests;
+			productName = metronome8Tests;
+			productReference = C70B239F1D8266780047E38E /* metronome8Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C70B23A91D8266780047E38E /* metronome8UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C70B23B91D8266780047E38E /* Build configuration list for PBXNativeTarget "metronome8UITests" */;
+			buildPhases = (
+				C70B23A61D8266780047E38E /* Sources */,
+				C70B23A71D8266780047E38E /* Frameworks */,
+				C70B23A81D8266780047E38E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C70B23AC1D8266780047E38E /* PBXTargetDependency */,
+			);
+			name = metronome8UITests;
+			productName = metronome8UITests;
+			productReference = C70B23AA1D8266780047E38E /* metronome8UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C70B23831D8266780047E38E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Louis Kane";
+				TargetAttributes = {
+					C70B238A1D8266780047E38E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C70B239E1D8266780047E38E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C70B238A1D8266780047E38E;
+					};
+					C70B23A91D8266780047E38E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C70B238A1D8266780047E38E;
+					};
+				};
+			};
+			buildConfigurationList = C70B23861D8266780047E38E /* Build configuration list for PBXProject "metronome8" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C70B23821D8266780047E38E;
+			productRefGroup = C70B238C1D8266780047E38E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C70B238A1D8266780047E38E /* metronome8 */,
+				C70B239E1D8266780047E38E /* metronome8Tests */,
+				C70B23A91D8266780047E38E /* metronome8UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C70B23891D8266780047E38E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70B23991D8266780047E38E /* LaunchScreen.storyboard in Resources */,
+				C70B23961D8266780047E38E /* Assets.xcassets in Resources */,
+				C70B23BF1D8266B60047E38E /* Play_Icon.png in Resources */,
+				C70B23C11D827EE60047E38E /* Metronome.mp3 in Resources */,
+				C70B23941D8266780047E38E /* Main.storyboard in Resources */,
+				C70B23BE1D8266B60047E38E /* Pause_Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70B239D1D8266780047E38E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70B23A81D8266780047E38E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C70B23871D8266780047E38E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70B23911D8266780047E38E /* ViewController.swift in Sources */,
+				C70B238F1D8266780047E38E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70B239B1D8266780047E38E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70B23A41D8266780047E38E /* metronome8Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70B23A61D8266780047E38E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70B23AF1D8266780047E38E /* metronome8UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C70B23A11D8266780047E38E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C70B238A1D8266780047E38E /* metronome8 */;
+			targetProxy = C70B23A01D8266780047E38E /* PBXContainerItemProxy */;
+		};
+		C70B23AC1D8266780047E38E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C70B238A1D8266780047E38E /* metronome8 */;
+			targetProxy = C70B23AB1D8266780047E38E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C70B23921D8266780047E38E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C70B23931D8266780047E38E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C70B23971D8266780047E38E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C70B23981D8266780047E38E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C70B23B11D8266780047E38E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C70B23B21D8266780047E38E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C70B23B41D8266780047E38E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = metronome8/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.louis.metronome8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C70B23B51D8266780047E38E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = metronome8/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.louis.metronome8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C70B23B71D8266780047E38E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = metronome8Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.louis.metronome8Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/metronome8.app/metronome8";
+			};
+			name = Debug;
+		};
+		C70B23B81D8266780047E38E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = metronome8Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.louis.metronome8Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/metronome8.app/metronome8";
+			};
+			name = Release;
+		};
+		C70B23BA1D8266780047E38E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = metronome8UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.louis.metronome8UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = metronome8;
+			};
+			name = Debug;
+		};
+		C70B23BB1D8266780047E38E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = metronome8UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.louis.metronome8UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = metronome8;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C70B23861D8266780047E38E /* Build configuration list for PBXProject "metronome8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C70B23B11D8266780047E38E /* Debug */,
+				C70B23B21D8266780047E38E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C70B23B31D8266780047E38E /* Build configuration list for PBXNativeTarget "metronome8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C70B23B41D8266780047E38E /* Debug */,
+				C70B23B51D8266780047E38E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C70B23B61D8266780047E38E /* Build configuration list for PBXNativeTarget "metronome8Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C70B23B71D8266780047E38E /* Debug */,
+				C70B23B81D8266780047E38E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C70B23B91D8266780047E38E /* Build configuration list for PBXNativeTarget "metronome8UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C70B23BA1D8266780047E38E /* Debug */,
+				C70B23BB1D8266780047E38E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C70B23831D8266780047E38E /* Project object */;
+}
